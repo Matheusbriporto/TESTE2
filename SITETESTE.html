@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Convite - MeuEvento</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #81948B;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #81948B;
+        }
+
+        .invitation {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .invitation h2 {
+            color: #81948B;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .invitation p {
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .options {
+            text-align: center;
+        }
+
+        button {
+            background-color: #81948B;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #6B7E74;
+        }
+
+        footer {
+            background-color: #81948B;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .arrow-down i {
+            color: #fff; /* Cor branca */
+            animation: bounce 1s infinite alternate; /* Animação */
+        }
+
+        @keyframes bounce {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(10px); /* Move para baixo */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Convite</h1>
+            <div class="invitation">
+                <h2>Nome do Evento</h2>
+                <p>Data do Evento</p>
+                <p>Local do Evento</p>
+                <p>Descrição do Evento</p>
+            </div>
+            <div class="options">
+                <button>Editar</button>
+                <button>Compartilhar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MeuEvento. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <div class="arrow-down">
+        <i class="fas fa-arrow-down"></i>
+    </div>
+</body>
+</html>
